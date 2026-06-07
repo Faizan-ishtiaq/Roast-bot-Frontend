@@ -292,6 +292,13 @@ body {
 
 /* Mobile */
 @media (max-width: 480px) {
-  .title { font-size: 56px; }
-  .chat-box { height: 360px; }
+  .title { font-size: 42px; }
+  .subtitle { font-size: 12px; }
+  .chat-box { height: 55vh; }
+  .bubble { font-size: 13px; padding: 10px 13px; }
+  .input { font-size: 13px; padding: 12px 14px; }
+  .send-btn { font-size: 12px; padding: 12px 14px; }
+  .header-badge { font-size: 10px; }
+  .container { gap: 12px; }
+  .bot-avatar, .user-avatar { width: 28px; height: 28px; font-size: 14px; }
 }
